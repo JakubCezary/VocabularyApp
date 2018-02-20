@@ -1,20 +1,11 @@
 <template>
 
-<nav class = "navbar navbar-inverse navbar-fixed-top">
-<div class="container-fluid">
-
-
+<ul class="nav justify-content-center">
 <b-nav pills>
   <b-nav-item ><router-link to="/" exact>Vocabulary</router-link></b-nav-item>
   <b-nav-item ><router-link to="/add" exact>Add</router-link></b-nav-item>
 </b-nav>
-
-
-</div>
-</nav>
-
-
-
+</ul>
 
 </template>
 
@@ -26,7 +17,10 @@ export default {}
 ul{
     list-style-type: none;
     text-align: center;
-    margin: 0;
+    background:green;
+    padding: 10px 0;
+    margin-bottom: 10px;
+
 }
 li{
     display: inline-block;
@@ -38,11 +32,7 @@ a{
     padding: 12px;
     border-radius: 5px;
 }
-nav{
-    background: green;
-    padding: 30px 0;
-    margin-bottom: 40px;
-}
+
 .router-link-active{
     background: white;
     color: #444;
