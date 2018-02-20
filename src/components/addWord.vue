@@ -1,10 +1,9 @@
 <template>
 
-
-
-    <div id="add-word">
+<div class="container">
+  <div id="add-word">
             <form v-if="!submitted">
-        <h2>New word</h2>
+        <h1>New word</h1>
 
             <label>Word:</label>
             <input type="text" v-model.lazy="word.title" required />
@@ -29,6 +28,7 @@
             <h3>Übung macht den Maister, lerne täglich!</h3>
 
         </div>
+    </div>
     </div>
 </template>
 
@@ -67,7 +67,7 @@ export default {
 #add-word{
     margin: 20px auto;
     max-width: 600px;
-    padding: 20px;
+
 }
 label{
     display: block;

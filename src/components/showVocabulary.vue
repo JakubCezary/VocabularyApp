@@ -1,10 +1,15 @@
 <template>
+
+<div class="container">
+  <!-- Content here -->
+
     <div id="show-words">
         <h1>My vocabulary</h1>
         <div v-for="word in words" class="single-word">
             <router-link v-bind:to="'/word/' + word.id"><h2>{{ word.title }}</h2></router-link>
             <article>{{ word.example }}</article>
         </div>
+    </div>
     </div>
 </template>
 
@@ -37,8 +42,8 @@ export default {
 
 <style scoped>
 #show-words{
-    max-width: 800px;
-    margin: 0px auto;
+    max-width: 600px;
+  margin: 20px auto;
 }
 .single-word{
     padding: 20px;
