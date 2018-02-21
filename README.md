@@ -2,14 +2,16 @@
 
 > A Vue.js project
 
-## Run
+## Test
 
 ``` bash
-Run
 
-npm run dev
+
+Run: npm run dev
 or
 firebase serve
+or
+go to https://vuevocabulary.firebaseapp.com/
 
 to test the application
 ```
