@@ -3,8 +3,6 @@
 <div class="container">
   <div id="add-word">
             <form v-if="!submitted">
-        <h1>New word</h1>
-
             <label>Word:</label>
             <input type="text" v-model.lazy="word.title" required />
 
