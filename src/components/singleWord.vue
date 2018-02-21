@@ -33,6 +33,6 @@ export default {
 <style>
 #single-word{
     max-width: 600px;
-      margin: 20px auto;
+      margin: 20px 10px;
 }
 </style>

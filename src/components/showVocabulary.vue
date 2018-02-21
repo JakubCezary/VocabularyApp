@@ -4,7 +4,7 @@
   <!-- Content here -->
 
     <div id="show-words">
-        <h1>My vocabulary</h1>
+
         <div v-for="word in words" class="single-word">
             <router-link v-bind:to="'/word/' + word.id"><h2>{{ word.title }}</h2></router-link>
             <article>{{ word.example }}</article>
@@ -47,7 +47,7 @@ export default {
 }
 .single-word{
     padding: 20px;
-    margin: 20px 0;
+    margin: 20px 10px;
     box-sizing: border-box;
     background: #eee;
     border: 1px dotted #aaa;
