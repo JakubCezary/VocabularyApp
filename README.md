@@ -2,18 +2,17 @@
 
 > A Vue.js project
 
-## Build Setup
+## Run
 
 ``` bash
-# install dependencies
-npm install
+Run
 
-# serve with hot reload at localhost:8080
 npm run dev
+or
+firebase serve
 
-# build for production with minification
-npm run build
+to test the application
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
-"# VocabularyApp" 
+"# VocabularyApp"
