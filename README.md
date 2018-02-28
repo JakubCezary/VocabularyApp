@@ -4,11 +4,12 @@ Simple application to save the vocabulary.
 
 ## Getting Started
 
-run: npm run dev
+run:
+* npm run dev
 or
-firebase serve
+* firebase serve
 or
-go to https://vuevocabulary.firebaseapp.com/
+* go to https://vuevocabulary.firebaseapp.com/
 
 to test the application
 
