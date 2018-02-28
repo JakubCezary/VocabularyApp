@@ -4,15 +4,7 @@ Simple application to save the vocabulary.
 
 ## Getting Started
 
-Three ways to test the application:
 * run "npm run dev"
-
-* run "firebase serve"
-
-* go to https://vuevocabulary.firebaseapp.com/
-
-
-
 
 ## Built With
 
